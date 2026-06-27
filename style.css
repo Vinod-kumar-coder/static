@@ -1,0 +1,131 @@
+.head{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    color:rgb(172, 21, 109);
+    font-weight: bold;
+}
+.bg{
+    background-image: url("https://res.cloudinary.com/dwhrxpkjk/image/upload/v1781853525/palm-tree-beach_d9dxc4.jpg");
+    height:100vh;
+    background-size: cover;
+}   
+.startcard{
+background-color: rgb(138, 220, 226);
+text-align: center;
+padding: 20px;
+width:350px;
+border-radius: 20px;
+height:200px;
+margin:20px;
+}
+.startcard1{
+background-color: rgb(216, 156, 208);
+text-align: center;
+padding: 20px;
+width:350px;
+border-radius: 20px;
+height:200px;
+margin:20px;
+}
+#sectionfavorite{
+    background-image: url("https://res.cloudinary.com/dwhrxpkjk/image/upload/v1781941185/reykjavik-iceland-june-13-2023_xd0bcn.jpg");
+    height:100vh;
+    background-size: cover;
+}
+.im{
+    height:180px;
+    width:180px;
+    border-radius: 10px;
+}
+/* .space{
+    margin:15px;
+} */
+.startBtn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+#tajdetail{
+    /* background-image: url("https://res.cloudinary.com/dwhrxpkjk/image/upload/v1781853525/palm-tree-beach_d9dxc4.jpg"); */
+    height:100vh;
+    background-color: lightcyan;
+    background-size: cover;
+}
+.cars{
+  
+    background-color: white;
+    border-color: none;
+    margin:30px;
+    
+    padding:20px; 
+}
+
+.image{
+    width:100vw;
+    height: 50vh;
+}
+.pad{
+    padding: 16px;
+}
+.para{
+    text-decoration: none;
+}
+.navi{
+    height:100vh;
+    background-color: lightcyan;
+}
+.imgicon{
+    height:40px;
+    width:40px;
+    margin-right: 10px;
+}
+#sectionfoodhotel{
+     background-image: url("https://res.cloudinary.com/dwhrxpkjk/image/upload/v1781853311/cld-sample-4.jpg");
+    height:100vh;
+    background-size: cover;
+}
+.foodstart{
+    color:rgb(255, 30, 244);
+    text-align: center;
+    padding: 10px;
+    /* font-size: 30px; */
+}
+.head1{
+    /* padding: 20px; */
+    text-align: center;
+    font-family: 'Roboto';
+    color:rgb(172, 21, 109);
+    font-weight: bold;
+    font-size:70px;
+}
+.par{
+    color:rgb(255, 35, 226);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    font-size:30px;
+}
+html {
+    scroll-behavior:auto;
+}
+.whycard{
+    background-color: white;
+    border-radius: 10px;
+    /* border-style: solid;
+    border-color: rebeccapurple; */
+    text-align: center;
+    padding:10px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #e5eaf4;
+    border-width: 1px;
+}
+.wcusection{
+    background-color: rgb(96, 180, 180);
+    background-size: cover;
+}
+.shadow1{
+    box-shadow: 0 0 35px 10px rgba(0,0,0,0.5);
+}

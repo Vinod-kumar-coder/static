@@ -23,6 +23,7 @@
         <a class="nav-link" href="#sectionfavorite">Favorite Places</a>
         <a class="nav-link" href="#sectiontajdetail">Detailed View</a>
          <a class="nav-link" href="#sectionfoodhotel">Order your Food</a>
+         <a class="nav-link" href="#sectioncounter">Javascript examples</a>
       </div>
     </div>
   </div>
@@ -38,7 +39,7 @@
              <div class="startcard1">
                <h1 style="color:rgb(221, 89, 71)">Food</h1><hr/>
                <p style="color:rgb(102, 224, 157)">Taste the thunder</p>
-               <a href="#sectionfoodhotel" class="btn btn-danger">Let's go</a>
+               <a  href="#sectionfoodhotel" class="btn btn-danger">Let's go</a>
              </div>
          </div>
         </div>
@@ -165,16 +166,27 @@ The Taj Mahal attracts millions of visitors every year because of its historical
                 <div class="whycard mb-3">
                         <img class="imgicon" src="https://res.cloudinary.com/dwhrxpkjk/image/upload/v1782457042/user_xejntl.png"/>
                         <h1>Best Offers</h1>
-                        <p>dfbgfh</p>
+                        <p id="demo">offers available</p>
+                        <button type="button" onclick="myFunction()">Check Offers</button>
                 </div>
               </div>
             </div>
           </div>
           
         </div>
-        
+        <div id="sectioncounter"class= "d-flex  justify-content-center">
+          
+          <div class="countercard">
+               <h1 class="">Counter</h1> 
+               <p id ="counter"class="counterp">0</p>
+               <button onclick="decrement()">Decrement</button>
+               <button onclick="reset()">Reset</button>
+               <button onclick="increment()">Increment</button>
+          </div>
+        </div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="javascript.js"></script>
     </body>
 </html>

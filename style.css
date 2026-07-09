@@ -149,3 +149,26 @@ html {
     font-size: 40px;
     font-weight: bold;
 }
+.creatorbg{
+    background-image: url("https://res.cloudinary.com/dwhrxpkjk/image/upload/v1783493892/download_4_ys2hx1.jpg");
+    height:100vh;
+    background-size: cover;
+}
+.myimage{
+    height: 180px;
+    width:180px;
+    border-radius: 120px;
+}
+.mycard{
+    width:1900px;
+}
+.bgform{
+    background-color: rgb(179, 253, 253);
+    width:100vw;
+    height:100vh;
+}
+.bord{
+    border-radius: 10px;
+    border-style: none;
+    padding:10px;
+}

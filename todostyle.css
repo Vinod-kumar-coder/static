@@ -38,3 +38,10 @@
 .listitems{
     padding:10px;
 }
+.line{
+    text-decoration: line-through;
+    color: red;
+}
+.delete-icon{
+    padding-right: 10px;
+}

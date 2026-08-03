@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="todostyle.css">
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     </head>
     <body>
        <div class="backgroundcolor">
@@ -11,8 +12,8 @@
             <div class="col-12" id="containerr">
                <h1 class="head">Todo Application</h1>
                <h1 class="subhead">Create Task</h1>
-               <input type="text" class="inputstyle" placeholder="Enter your todo task"/>
-               <button class="btn btn-primary subhead">Add Task</button>
+               <input type="text" class="inputstyle" placeholder="Enter your todo task" id="uservalue"/>
+               <button class="btn btn-primary subhead" id="addbutton">Add Task</button>
                <h1>My Tasks</h1>
                <ul class="todocontainer" id="todoitemscontainer">
                   <!-- <li class="d-flex flex-row">
@@ -21,10 +22,12 @@
                         <label for="checkBox" id="labelInput">Learn Html</label>
                         <div class="ms-auto">
                         <span class="icon ">delete</span>
+                        <i class=" far fa-trash-alt"></i> 
                         </div>
                      </div>
                   </li> -->
                </ul>
+               <button class="btn btn-primary subhead" id="savebutton">Save</button>
             </div>
            </div> 
           </div>

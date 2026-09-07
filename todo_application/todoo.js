@@ -33,7 +33,7 @@ function onAddTodo(){
     let userEnterValueElement= document.getElementById("uservalue");
     let userEnterValue=userEnterValueElement.value;
     if (userEnterValue===""){
-        alert("Enter a valid text");
+        alert("Enter a valid todo task not an empty task");
         return;
     }
     todosCount=todosCount+1;
